@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap");
+
+:root {
+  --primary-color-cyan: hsl(158, 36%, 37%);
+  --primary-color-cream: hsl(30, 38%, 92%);
+  --seconary-color-dark-blue: hsl(212, 21%, 14%);
+  --seconary-color-grayish-blue: hsl(228, 12%, 48%);
+  --seconary-color-white: hsl(0, 0%, 100%);
+  --primary-font: "Montserrat", sans-serif;
+  --seconary-font: "Fraunces", serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--primary-font);
+  color: var(--seconary-color-grayish-blue);
+}
+
+body {
+  background-color: var(--primary-color-cream);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  margin: 10rem auto;
+  width: 800px;
+  height: 600px;
+  background-color: var(--seconary-color-white);
+  border-radius: 10px;
+}
+
+.image-preview {
+  width: 50%;
+  /* background: url(../images/image-product-desktop.jpg);
+  background-size: cover; */
+}
+
+img {
+  width: 100%;
+  border-radius: 10px 0 0 10px;
+}
+
+.text {
+  width: 50%;
+  height: 100%;
+  padding: 3rem;
+}
+
+li {
+  margin-bottom: 2rem;
+}
+
+.cat-text {
+  letter-spacing: 0.2rem;
+  font-size: 0.8rem;
+}
+
+.title {
+  font-family: var(--seconary-font);
+  color: var(--seconary-color-dark-blue);
+  font-size: 2.5rem;
+  line-height: 1;
+  padding-right: 1rem;
+}
+
+.description {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.price-tag {
+  color: var(--primary-color-cyan);
+  font-family: var(--seconary-font);
+  font-size: 2.5rem;
+}
+
+span {
+  position: relative;
+  font-size: 1rem;
+  text-decoration: line-through;
+  margin-left: 1rem;
+  top: -0.5rem;
+}
+
+button {
+  border: none;
+  background-color: var(--primary-color-cyan);
+  color: var(--seconary-color-white);
+  font-size: 1.1rem;
+  font-weight: 700;
+  width: 100%;
+  border-radius: 10px;
+  height: 3.5rem;
+  cursor: pointer;
+}
+
+svg {
+  margin-right: 0.5rem;
+}
+
+.img-mob {
+  display: none;
+}

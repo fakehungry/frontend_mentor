@@ -1,0 +1,56 @@
+.card {
+  flex-direction: column;
+  margin: 1rem auto;
+  width: 90%;
+  height: 600px;
+}
+
+.img-desk {
+  display: none;
+}
+
+.img-mob {
+  display: block;
+}
+
+.image-preview,
+.text {
+  width: 100%;
+}
+
+img {
+  border-radius: 10px 10px 0 0;
+}
+
+.text {
+  padding: 1.5rem;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 2rem;
+  line-height: 1;
+  padding-right: 0;
+}
+
+.description {
+  font-size: 0.87rem;
+}
+
+.price-tag {
+  font-size: 2rem;
+}
+
+span {
+  font-size: 0.8rem;
+}
+
+button {
+  font-size: 0.8rem;
+  width: 100%;
+  border-radius: 10px;
+  height: 2.5rem;
+}
